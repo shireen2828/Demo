@@ -19,7 +19,7 @@ namespace DemoProject
             }
             else
             {
-                Console.WriteLine("number is invalid");
+                Console.WriteLine("number not found");
             }
         }
     }
