@@ -13,9 +13,13 @@ namespace DemoProject
             {
                 Console.WriteLine("this is a even number");
             }
+            else if(X1%2 != 0)
+            {
+                Console.WriteLine("This is odd number");
+            }
             else
             {
-                Console.WriteLine("this is not a even number");
+                Console.WriteLine("number is invalid");
             }
         }
     }
